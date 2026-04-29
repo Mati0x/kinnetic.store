@@ -183,7 +183,7 @@ export default function Home() {
 
         {/* WORK SECTION */}
         <section id="work" className="container">
-          <div className="sticky-type">ARCHIVE</div>
+          <div className="sticky-type">STREETWEAR</div>
 
           {/* Project 1 */}
           <div className="project-row">
@@ -274,13 +274,14 @@ export default function Home() {
                   color: "white",
                 }}
               >
-                <h4 style={{ fontFamily: "var(--syne)", fontSize: "2rem" }}>LAYERED DEPTH</h4>
+                <h4 style={{ fontFamily: "var(--syne)", fontSize: "2rem" }}>KEEP IT SIMPLE</h4>
                 <p style={{ marginTop: "20px" }}>
                   Se puede poner algo aca si te parece.
                 </p>
               </div>
             </div>
             <div
+              className="footer-meta"
               style={{
                 position: "absolute",
                 bottom: 0,
@@ -302,9 +303,9 @@ export default function Home() {
         <section className="carousel-section">
           <div className="container">
             <div className="carousel-heading">
-              <span style={{ fontFamily: "var(--syne)", color: "var(--accent)" }}>003 / REMAINING ARCHIVE</span>
+              <span style={{ fontFamily: "var(--syne)", color: "var(--accent)" }}>KINNETTIC</span>
               <h3 className="huge-type" style={{ fontSize: "6rem", margin: "20px 0" }}>
-                CAROUSEL
+                STREETWEAR
               </h3>
             </div>
           </div>
@@ -320,6 +321,7 @@ export default function Home() {
         </section>
 
         {/* FOOTER */}
+        TODO: fix footer to have column layoutt in mobile
         <footer id="contact">
           <div className="container">
             <div className="footer-cta">
@@ -337,7 +339,7 @@ export default function Home() {
               }}
             >
               <div>© 2026 KINNETIC</div>
-              <div style={{ display: "flex", gap: "30px" }}>
+              <div className="footer-social" style={{ display: "flex", gap: "30px" }}>
                 <a
                   href="https://www.instagram.com/kinnetic.streetwear/?hl=es-la"
                   target="_blank"
@@ -353,7 +355,7 @@ export default function Home() {
                   <span>Instagram</span>
                 </a>
               </div>
-              <div>MONTEVIDEO // URUGUAY</div>
+              <div className="footer-location">MONTEVIDEO // URUGUAY</div>
             </div>
           </div>
         </footer>
